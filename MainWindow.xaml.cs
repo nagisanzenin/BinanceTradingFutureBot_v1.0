@@ -26,9 +26,8 @@ namespace BitcoinPriceViewer
 
         public static class BinanceApiCredentials
         {
-            public static string ApiKey { get; } = "YrXGNMXWbevegk8lK2GphbQVxonn39Kvjecuso8SDDRG2XBKijB3tiw4eISq3mm5";
-            public static string ApiSecret { get; } = "99xEzbamuweOTt7LqPtF4jf12oi1FkCX7Ngjd9bl78fXNBt5MlyMwFBlOc8BO8FF";
-
+            public static string ApiKey { get; } = "APIKEY HERE";
+            public static string ApiSecret { get; } = "APISECRET HERE";
             public static BinanceClient GetClient()
             {
                 var options = new BinanceClientOptions()
